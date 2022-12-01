@@ -1,0 +1,707 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "RoguelikeProject Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoguelikeProject",
+				"Win64",
+				"Debug",
+				"E:\\UnrealProject\\RoguelikeProject\\RoguelikeProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UnrealVersions\\UE_5.1"
+			}
+		},
+		{
+			"label": "RoguelikeProject Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoguelikeProject",
+				"Win64",
+				"Debug",
+				"E:\\UnrealProject\\RoguelikeProject\\RoguelikeProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoguelikeProject Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UnrealVersions\\UE_5.1"
+			}
+		},
+		{
+			"label": "RoguelikeProject Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RoguelikeProject",
+				"Win64",
+				"Debug",
+				"E:\\UnrealProject\\RoguelikeProject\\RoguelikeProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UnrealVersions\\UE_5.1"
+			}
+		},
+		{
+			"label": "RoguelikeProject Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoguelikeProject",
+				"Win64",
+				"DebugGame",
+				"E:\\UnrealProject\\RoguelikeProject\\RoguelikeProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UnrealVersions\\UE_5.1"
+			}
+		},
+		{
+			"label": "RoguelikeProject Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoguelikeProject",
+				"Win64",
+				"DebugGame",
+				"E:\\UnrealProject\\RoguelikeProject\\RoguelikeProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoguelikeProject Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UnrealVersions\\UE_5.1"
+			}
+		},
+		{
+			"label": "RoguelikeProject Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RoguelikeProject",
+				"Win64",
+				"DebugGame",
+				"E:\\UnrealProject\\RoguelikeProject\\RoguelikeProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UnrealVersions\\UE_5.1"
+			}
+		},
+		{
+			"label": "RoguelikeProject Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoguelikeProject",
+				"Win64",
+				"Development",
+				"E:\\UnrealProject\\RoguelikeProject\\RoguelikeProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UnrealVersions\\UE_5.1"
+			}
+		},
+		{
+			"label": "RoguelikeProject Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoguelikeProject",
+				"Win64",
+				"Development",
+				"E:\\UnrealProject\\RoguelikeProject\\RoguelikeProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoguelikeProject Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UnrealVersions\\UE_5.1"
+			}
+		},
+		{
+			"label": "RoguelikeProject Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RoguelikeProject",
+				"Win64",
+				"Development",
+				"E:\\UnrealProject\\RoguelikeProject\\RoguelikeProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UnrealVersions\\UE_5.1"
+			}
+		},
+		{
+			"label": "RoguelikeProject Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoguelikeProject",
+				"Win64",
+				"Test",
+				"E:\\UnrealProject\\RoguelikeProject\\RoguelikeProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UnrealVersions\\UE_5.1"
+			}
+		},
+		{
+			"label": "RoguelikeProject Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoguelikeProject",
+				"Win64",
+				"Test",
+				"E:\\UnrealProject\\RoguelikeProject\\RoguelikeProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoguelikeProject Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UnrealVersions\\UE_5.1"
+			}
+		},
+		{
+			"label": "RoguelikeProject Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RoguelikeProject",
+				"Win64",
+				"Test",
+				"E:\\UnrealProject\\RoguelikeProject\\RoguelikeProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UnrealVersions\\UE_5.1"
+			}
+		},
+		{
+			"label": "RoguelikeProject Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoguelikeProject",
+				"Win64",
+				"Shipping",
+				"E:\\UnrealProject\\RoguelikeProject\\RoguelikeProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UnrealVersions\\UE_5.1"
+			}
+		},
+		{
+			"label": "RoguelikeProject Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoguelikeProject",
+				"Win64",
+				"Shipping",
+				"E:\\UnrealProject\\RoguelikeProject\\RoguelikeProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoguelikeProject Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UnrealVersions\\UE_5.1"
+			}
+		},
+		{
+			"label": "RoguelikeProject Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RoguelikeProject",
+				"Win64",
+				"Shipping",
+				"E:\\UnrealProject\\RoguelikeProject\\RoguelikeProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UnrealVersions\\UE_5.1"
+			}
+		},
+		{
+			"label": "RoguelikeProject IOS Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoguelikeProject",
+				"IOS",
+				"Debug",
+				"E:\\UnrealProject\\RoguelikeProject\\RoguelikeProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UnrealVersions\\UE_5.1"
+			}
+		},
+		{
+			"label": "RoguelikeProject IOS Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoguelikeProject",
+				"IOS",
+				"Debug",
+				"E:\\UnrealProject\\RoguelikeProject\\RoguelikeProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoguelikeProject IOS Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UnrealVersions\\UE_5.1"
+			}
+		},
+		{
+			"label": "RoguelikeProject IOS Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RoguelikeProject",
+				"IOS",
+				"Debug",
+				"E:\\UnrealProject\\RoguelikeProject\\RoguelikeProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UnrealVersions\\UE_5.1"
+			}
+		},
+		{
+			"label": "RoguelikeProject IOS DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoguelikeProject",
+				"IOS",
+				"DebugGame",
+				"E:\\UnrealProject\\RoguelikeProject\\RoguelikeProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UnrealVersions\\UE_5.1"
+			}
+		},
+		{
+			"label": "RoguelikeProject IOS DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoguelikeProject",
+				"IOS",
+				"DebugGame",
+				"E:\\UnrealProject\\RoguelikeProject\\RoguelikeProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoguelikeProject IOS DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UnrealVersions\\UE_5.1"
+			}
+		},
+		{
+			"label": "RoguelikeProject IOS DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RoguelikeProject",
+				"IOS",
+				"DebugGame",
+				"E:\\UnrealProject\\RoguelikeProject\\RoguelikeProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UnrealVersions\\UE_5.1"
+			}
+		},
+		{
+			"label": "RoguelikeProject IOS Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoguelikeProject",
+				"IOS",
+				"Development",
+				"E:\\UnrealProject\\RoguelikeProject\\RoguelikeProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UnrealVersions\\UE_5.1"
+			}
+		},
+		{
+			"label": "RoguelikeProject IOS Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoguelikeProject",
+				"IOS",
+				"Development",
+				"E:\\UnrealProject\\RoguelikeProject\\RoguelikeProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoguelikeProject IOS Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UnrealVersions\\UE_5.1"
+			}
+		},
+		{
+			"label": "RoguelikeProject IOS Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RoguelikeProject",
+				"IOS",
+				"Development",
+				"E:\\UnrealProject\\RoguelikeProject\\RoguelikeProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UnrealVersions\\UE_5.1"
+			}
+		},
+		{
+			"label": "RoguelikeProject IOS Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoguelikeProject",
+				"IOS",
+				"Test",
+				"E:\\UnrealProject\\RoguelikeProject\\RoguelikeProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UnrealVersions\\UE_5.1"
+			}
+		},
+		{
+			"label": "RoguelikeProject IOS Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoguelikeProject",
+				"IOS",
+				"Test",
+				"E:\\UnrealProject\\RoguelikeProject\\RoguelikeProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoguelikeProject IOS Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UnrealVersions\\UE_5.1"
+			}
+		},
+		{
+			"label": "RoguelikeProject IOS Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RoguelikeProject",
+				"IOS",
+				"Test",
+				"E:\\UnrealProject\\RoguelikeProject\\RoguelikeProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UnrealVersions\\UE_5.1"
+			}
+		},
+		{
+			"label": "RoguelikeProject IOS Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoguelikeProject",
+				"IOS",
+				"Shipping",
+				"E:\\UnrealProject\\RoguelikeProject\\RoguelikeProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UnrealVersions\\UE_5.1"
+			}
+		},
+		{
+			"label": "RoguelikeProject IOS Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoguelikeProject",
+				"IOS",
+				"Shipping",
+				"E:\\UnrealProject\\RoguelikeProject\\RoguelikeProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoguelikeProject IOS Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UnrealVersions\\UE_5.1"
+			}
+		},
+		{
+			"label": "RoguelikeProject IOS Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RoguelikeProject",
+				"IOS",
+				"Shipping",
+				"E:\\UnrealProject\\RoguelikeProject\\RoguelikeProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UnrealVersions\\UE_5.1"
+			}
+		},
+		{
+			"label": "RoguelikeProjectEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoguelikeProjectEditor",
+				"Win64",
+				"Debug",
+				"E:\\UnrealProject\\RoguelikeProject\\RoguelikeProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UnrealVersions\\UE_5.1"
+			}
+		},
+		{
+			"label": "RoguelikeProjectEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoguelikeProjectEditor",
+				"Win64",
+				"Debug",
+				"E:\\UnrealProject\\RoguelikeProject\\RoguelikeProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoguelikeProjectEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UnrealVersions\\UE_5.1"
+			}
+		},
+		{
+			"label": "RoguelikeProjectEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RoguelikeProjectEditor",
+				"Win64",
+				"Debug",
+				"E:\\UnrealProject\\RoguelikeProject\\RoguelikeProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UnrealVersions\\UE_5.1"
+			}
+		},
+		{
+			"label": "RoguelikeProjectEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoguelikeProjectEditor",
+				"Win64",
+				"DebugGame",
+				"E:\\UnrealProject\\RoguelikeProject\\RoguelikeProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UnrealVersions\\UE_5.1"
+			}
+		},
+		{
+			"label": "RoguelikeProjectEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoguelikeProjectEditor",
+				"Win64",
+				"DebugGame",
+				"E:\\UnrealProject\\RoguelikeProject\\RoguelikeProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoguelikeProjectEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UnrealVersions\\UE_5.1"
+			}
+		},
+		{
+			"label": "RoguelikeProjectEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RoguelikeProjectEditor",
+				"Win64",
+				"DebugGame",
+				"E:\\UnrealProject\\RoguelikeProject\\RoguelikeProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UnrealVersions\\UE_5.1"
+			}
+		},
+		{
+			"label": "RoguelikeProjectEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoguelikeProjectEditor",
+				"Win64",
+				"Development",
+				"E:\\UnrealProject\\RoguelikeProject\\RoguelikeProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UnrealVersions\\UE_5.1"
+			}
+		},
+		{
+			"label": "RoguelikeProjectEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"RoguelikeProjectEditor",
+				"Win64",
+				"Development",
+				"E:\\UnrealProject\\RoguelikeProject\\RoguelikeProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"RoguelikeProjectEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UnrealVersions\\UE_5.1"
+			}
+		},
+		{
+			"label": "RoguelikeProjectEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"RoguelikeProjectEditor",
+				"Win64",
+				"Development",
+				"E:\\UnrealProject\\RoguelikeProject\\RoguelikeProject.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\UnrealVersions\\UE_5.1"
+			}
+		}
+	]
+}

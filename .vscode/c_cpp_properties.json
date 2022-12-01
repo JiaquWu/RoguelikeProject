@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "RoguelikeProjectEditor Editor Win64 Development (RoguelikeProject)",
+            "compilerPath": "D:\\Visual Studio\\IDE_Newest\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "E:\\UnrealProject\\RoguelikeProject\\.vscode\\compileCommands_RoguelikeProject.json",
+            "includePath": [ "${workspaceFolder}\\Intermediate/**", "[Workspace Folder]\\Plugins/**", "[Workspace Folder]\\Source/**" ]
+        },
+        {
+            "name": "Win32",
+            "compilerPath": "D:\\Visual Studio\\IDE_Newest\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "E:\\UnrealProject\\RoguelikeProject\\.vscode\\compileCommands_Default.json"
+        }
+    ],
+    "version": 4
+}

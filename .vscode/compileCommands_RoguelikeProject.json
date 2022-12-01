@@ -1,0 +1,42 @@
+[
+	{
+		"file": "E:\\UnrealProject\\RoguelikeProject\\Source\\RoguelikeProject\\RoguelikeProject.Build.cs",
+		"arguments": [
+			"D:\\Visual Studio\\IDE_Newest\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+			"@E:\\UnrealProject\\RoguelikeProject\\.vscode\\compileCommands_RoguelikeProject\\RoguelikeProject.255.rsp"
+		],
+		"directory": "E:\\UnrealVersions\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "E:\\UnrealProject\\RoguelikeProject\\Source\\RoguelikeProject\\RoguelikeProject.cpp",
+		"arguments": [
+			"D:\\Visual Studio\\IDE_Newest\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+			"@E:\\UnrealProject\\RoguelikeProject\\.vscode\\compileCommands_RoguelikeProject\\RoguelikeProject.255.rsp"
+		],
+		"directory": "E:\\UnrealVersions\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "E:\\UnrealProject\\RoguelikeProject\\Source\\RoguelikeProject\\RoguelikeProject.h",
+		"arguments": [
+			"D:\\Visual Studio\\IDE_Newest\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+			"@E:\\UnrealProject\\RoguelikeProject\\.vscode\\compileCommands_RoguelikeProject\\RoguelikeProject.255.rsp"
+		],
+		"directory": "E:\\UnrealVersions\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "E:\\UnrealProject\\RoguelikeProject\\Source\\RoguelikeProject\\RoguelikeProjectGameModeBase.cpp",
+		"arguments": [
+			"D:\\Visual Studio\\IDE_Newest\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+			"@E:\\UnrealProject\\RoguelikeProject\\.vscode\\compileCommands_RoguelikeProject\\RoguelikeProject.255.rsp"
+		],
+		"directory": "E:\\UnrealVersions\\UE_5.1\\Engine\\Source"
+	},
+	{
+		"file": "E:\\UnrealProject\\RoguelikeProject\\Source\\RoguelikeProject\\RoguelikeProjectGameModeBase.h",
+		"arguments": [
+			"D:\\Visual Studio\\IDE_Newest\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe",
+			"@E:\\UnrealProject\\RoguelikeProject\\.vscode\\compileCommands_RoguelikeProject\\RoguelikeProject.255.rsp"
+		],
+		"directory": "E:\\UnrealVersions\\UE_5.1\\Engine\\Source"
+	}
+]
