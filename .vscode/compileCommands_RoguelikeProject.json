@@ -1,0 +1,27 @@
+[
+	{
+		"file": "D:\\UnrealProject\\RoguelikeProject\\Source\\RoguelikeProject\\RoguelikeProject.Build.cs",
+		"command": "\"D:\\Visual Studio\\IDE_Newest\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @D:\\UnrealProject\\RoguelikeProject\\.vscode\\compileCommands_RoguelikeProject\\RoguelikeProject.211.rsp",
+		"directory": "D:\\EpicGames\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\UnrealProject\\RoguelikeProject\\Source\\RoguelikeProject\\RoguelikeProject.cpp",
+		"command": "\"D:\\Visual Studio\\IDE_Newest\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @D:\\UnrealProject\\RoguelikeProject\\.vscode\\compileCommands_RoguelikeProject\\RoguelikeProject.211.rsp",
+		"directory": "D:\\EpicGames\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\UnrealProject\\RoguelikeProject\\Source\\RoguelikeProject\\RoguelikeProject.h",
+		"command": "\"D:\\Visual Studio\\IDE_Newest\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @D:\\UnrealProject\\RoguelikeProject\\.vscode\\compileCommands_RoguelikeProject\\RoguelikeProject.211.rsp",
+		"directory": "D:\\EpicGames\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\UnrealProject\\RoguelikeProject\\Source\\RoguelikeProject\\RoguelikeProjectGameModeBase.cpp",
+		"command": "\"D:\\Visual Studio\\IDE_Newest\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @D:\\UnrealProject\\RoguelikeProject\\.vscode\\compileCommands_RoguelikeProject\\RoguelikeProject.211.rsp",
+		"directory": "D:\\EpicGames\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\UnrealProject\\RoguelikeProject\\Source\\RoguelikeProject\\RoguelikeProjectGameModeBase.h",
+		"command": "\"D:\\Visual Studio\\IDE_Newest\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @D:\\UnrealProject\\RoguelikeProject\\.vscode\\compileCommands_RoguelikeProject\\RoguelikeProject.211.rsp",
+		"directory": "D:\\EpicGames\\UE_5.0\\Engine\\Source"
+	}
+]

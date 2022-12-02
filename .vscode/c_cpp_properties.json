@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "RoguelikeProjectEditor Editor Win64 Development (RoguelikeProject)",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "D:\\UnrealProject\\RoguelikeProject\\.vscode\\compileCommands_RoguelikeProject.json",
+            "cStandard": "c11",
+            "cppStandard": "gnu++14"
+        },
+        {
+            "name": "Win32",
+            "intelliSenseMode": "msvc-x64",
+            "compileCommands": "D:\\UnrealProject\\RoguelikeProject\\.vscode\\compileCommands_Default.json",
+            "cStandard": "c11",
+            "cppStandard": "gnu++14"
+        }
+    ],
+    "version": 4
+}
