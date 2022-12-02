@@ -13,5 +13,5 @@ UCLASS()
 class ROGUELIKEPROJECT_API ARoguelikeProjectGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
-	
+	//test
 };
